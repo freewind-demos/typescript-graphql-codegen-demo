@@ -1,18 +1,11 @@
-TypeScript Hello World Demo
+TypeScript "graphql-codegen" Demo
 ===========================
+
+通过命令将graphql定义的类型转换成typescript的类型
 
 ```
 npm install
-npm run demo
+npm run gen
 ```
 
-Note:
-
-`esModuleInterop` is recommended to set to `true`,
-since we can have consistent importing syntax with babel,
-always use:
-
-```
-import some from 'some'
-```
-
+Check `build/types.d.ts`
